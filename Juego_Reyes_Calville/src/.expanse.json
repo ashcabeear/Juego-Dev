@@ -646,7 +646,7 @@
         "type": "overlay",
         "position": "absolute",
         "top": "",
-        "left": 10,
+        "left": 15,
         "bottom": "",
         "right": "",
         "stackingOrder": 0
@@ -762,7 +762,7 @@
         "backgroundOpacity": 0,
         "position": "absolute",
         "top": "",
-        "left": 90,
+        "left": 150,
         "bottom": "",
         "right": ""
       },
