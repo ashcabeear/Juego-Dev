@@ -417,7 +417,12 @@
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "paddingLeft": "",
+        "paddingRight": "",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "ignoreRaycast": false
       },
       "name": "Mayor",
       "order": 17.099504914169675
@@ -539,8 +544,8 @@
       "id": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
       "position": [
         -1.3402043648524695,
-        1.6979240300034277,
-        -0.01466068131661935
+        1.697924030003428,
+        -0.01466068131661924
       ],
       "rotation": [
         0,
@@ -578,7 +583,7 @@
         "justifyContent": "center"
       },
       "name": "Menor",
-      "order": 12.06186603082364,
+      "order": 11.923979535915612,
       "parentId": "50c70748-33ce-4476-a458-5791826f0058"
     },
     "2e358b9a-c92a-4e71-b71d-b043a313e54b": {
@@ -618,7 +623,7 @@
       "position": [
         -0.39495814757806325,
         1.9172070640717125,
-        0
+        -3.692930936462146
       ],
       "rotation": [
         0,
@@ -636,14 +641,15 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "ui": {
-        "width": 307,
-        "height": 40,
+        "width": 310,
+        "height": 50,
         "type": "overlay",
         "position": "absolute",
         "top": "",
-        "left": 32,
+        "left": 10,
         "bottom": "",
-        "right": ""
+        "right": "",
+        "stackingOrder": 0
       },
       "name": "Contenedor",
       "order": 18.281525139123698
@@ -756,7 +762,7 @@
         "backgroundOpacity": 0,
         "position": "absolute",
         "top": "",
-        "left": 70,
+        "left": 90,
         "bottom": "",
         "right": ""
       },
