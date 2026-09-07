@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 39,
+    "left": 0,
+    "width": 647,
+    "height": 862,
+    "isRotated": false,
+    "originalWidth": 647,
+    "originalHeight": 941
+  },
+  "imagePath": "image-targets/CartaEspada_luminance.jpg",
+  "metadata": null,
+  "name": "CartaEspada",
+  "resources": {
+    "originalImage": "CartaEspada_original.jpg",
+    "croppedImage": "CartaEspada_cropped.jpg",
+    "thumbnailImage": "CartaEspada_thumbnail.jpg",
+    "luminanceImage": "CartaEspada_luminance.jpg"
+  },
+  "created": 1788742777595,
+  "updated": 1788742777595
+}

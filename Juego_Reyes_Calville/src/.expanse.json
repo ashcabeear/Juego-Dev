@@ -105,9 +105,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.6,
+        0.6,
+        0.6
       ],
       "geometry": null,
       "material": null,
@@ -124,12 +124,12 @@
       "name": "Guerrero.glb",
       "order": 2.430872877228066
     },
-    "6b9fad94-8b73-4867-afd0-9b63c1a5def7": {
-      "id": "6b9fad94-8b73-4867-afd0-9b63c1a5def7",
+    "aa0cb93d-98e3-41f5-96a6-1065738bf843": {
+      "id": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
       "position": [
         0,
-        0.43000278004902226,
-        -0.051277294059004885
+        0,
+        0
       ],
       "rotation": [
         0,
@@ -148,9 +148,9 @@
       "components": {},
       "name": "Image Target",
       "imageTarget": {
-        "name": "Carta Espada"
+        "name": "CartaEspada"
       },
-      "order": 3.926445203689194
+      "order": 3.995969455342658
     }
   },
   "spaces": {
