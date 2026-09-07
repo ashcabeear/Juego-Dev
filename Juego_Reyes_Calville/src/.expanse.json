@@ -318,6 +318,67 @@
       "name": "Guerrero_Enfrentamiento2.glb",
       "order": 11.00532235590307,
       "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d"
+    },
+    "8d06c200-c083-4330-a3bf-e55109009bdc": {
+      "id": "8d06c200-c083-4330-a3bf-e55109009bdc",
+      "position": [
+        -0.4723242612044565,
+        0,
+        2.531683563040367
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target_CastilloMadera",
+      "imageTarget": {
+        "name": "cartamadera-1"
+      },
+      "order": 11.083513954227437
+    },
+    "1ac1e9d9-90f3-4f63-a049-67d70a151ae1": {
+      "id": "1ac1e9d9-90f3-4f63-a049-67d70a151ae1",
+      "position": [
+        -1.6923374493899415,
+        1.478521351977633,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/dado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "dado.glb",
+      "order": 12.841521263336587
     }
   },
   "spaces": {

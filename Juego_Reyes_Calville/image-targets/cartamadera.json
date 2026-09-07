@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 19,
+    "left": 0,
+    "width": 768,
+    "height": 1024,
+    "isRotated": false,
+    "originalWidth": 768,
+    "originalHeight": 1063
+  },
+  "imagePath": "image-targets/cartamadera_luminance.jpg",
+  "metadata": null,
+  "name": "cartamadera",
+  "resources": {
+    "originalImage": "cartamadera_original.jpg",
+    "croppedImage": "cartamadera_cropped.jpg",
+    "thumbnailImage": "cartamadera_thumbnail.jpg",
+    "luminanceImage": "cartamadera_luminance.jpg"
+  },
+  "created": 1788755815713,
+  "updated": 1788755815713
+}
