@@ -1,7 +1,7 @@
 import * as ecs from '@8thwall/ecs'
 
 const VARITA = 'cartavarita'   // el image target de la varita
-const ESCUDO = 'cartaescudo'   // el image target del escudo, confirma el nombre real
+const ESCUDO = 'CartaEscudo'   // el image target del escudo, confirma el nombre real
 
 ecs.registerComponent({
   name: 'Animacion Varita',
