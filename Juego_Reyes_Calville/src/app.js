@@ -5,6 +5,7 @@ const onxrloaded = () => {
       require('../image-targets/CartaEscudo.json'),
       require('../image-targets/EnfretamientoEspada.json'),
       require('../image-targets/cartamadera.json'),
+      require('../image-targets/Merged.json'),
     ],
   })
 }

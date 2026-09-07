@@ -1,6 +1,6 @@
 import * as ecs from '@8thwall/ecs'
 
-const DUELO = 'EnfrentamientoEspada'
+const DUELO = 'Merged'
 const GIRO_MS = 1200
 
 ecs.registerComponent({

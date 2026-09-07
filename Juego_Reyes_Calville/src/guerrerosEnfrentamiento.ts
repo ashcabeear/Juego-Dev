@@ -1,6 +1,6 @@
 import * as ecs from '@8thwall/ecs'
 
-const DUELO = 'EnfrentamientoEspada'
+const DUELO = 'Merged'
 
 ecs.registerComponent({
   name: 'Guerrero Enfrentamiento',

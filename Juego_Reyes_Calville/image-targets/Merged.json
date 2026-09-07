@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 215,
+    "width": 605,
+    "height": 807,
+    "isRotated": false,
+    "originalWidth": 1035,
+    "originalHeight": 807
+  },
+  "imagePath": "image-targets/Merged_luminance.png",
+  "metadata": null,
+  "name": "Merged",
+  "resources": {
+    "originalImage": "Merged_original.png",
+    "croppedImage": "Merged_cropped.png",
+    "thumbnailImage": "Merged_thumbnail.png",
+    "luminanceImage": "Merged_luminance.png"
+  },
+  "created": 1788760964713,
+  "updated": 1788760980101
+}
