@@ -684,8 +684,8 @@
       },
       "ui": {
         "type": "3d",
-        "width": 100,
-        "height": 36,
+        "width": 200,
+        "height": 40,
         "background": "#410674",
         "borderRadius": 18,
         "flexDirection": "row",
@@ -730,7 +730,7 @@
         "textAlign": "center",
         "verticalTextAlign": "center"
       },
-      "order": 1.2091472264005605
+      "order": 28.26307217321459
     },
     "abb64b48-72c3-4e5c-a6c3-41463307005f": {
       "id": "abb64b48-72c3-4e5c-a6c3-41463307005f",
@@ -1108,7 +1108,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "abb64b48-72c3-4e5c-a6c3-41463307005f",
+      "parentId": "eb60f95b-6575-4455-83a3-afdcdbd22bd5",
       "components": {},
       "ui": {
         "width": 100,
@@ -1119,7 +1119,7 @@
         "type": "3d"
       },
       "name": "Pregunta1",
-      "order": 29.658106106757444
+      "order": 26.713778419117784
     }
   },
   "spaces": {
