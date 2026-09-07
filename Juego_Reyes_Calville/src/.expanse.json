@@ -807,6 +807,151 @@
       },
       "name": "GuerreroVarita1.glb",
       "order": 34.56958676270027
+    },
+    "61693240-0bc0-4b62-866c-6f4ce0fe9c63": {
+      "id": "61693240-0bc0-4b62-866c-6f4ce0fe9c63",
+      "position": [
+        0,
+        0.6122104962017213,
+        -3.983162413934025
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.8000000000000003,
+        1.700000012119506,
+        2.8000000199615385
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Video_ReyesdeCalville.mp4"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Video",
+      "order": 33.345039602815596,
+      "videoControls": {}
+    },
+    "c59e42a7-9622-46e8-a16e-328ddb38337d": {
+      "id": "c59e42a7-9622-46e8-a16e-328ddb38337d",
+      "position": [
+        0,
+        0.6113815479411688,
+        -3.9368406015812774
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 280,
+        "height": 170,
+        "background": "#ad50ff",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 34.938784831708574
+    },
+    "37ecfba1-214d-47b4-9577-1aa4de7f684e": {
+      "id": "37ecfba1-214d-47b4-9577-1aa4de7f684e",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c59e42a7-9622-46e8-a16e-328ddb38337d",
+      "components": {},
+      "name": "Icon_Play",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/Play.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.4407539967283826
+    },
+    "2f384992-79fd-4be7-a810-c904ae969702": {
+      "id": "2f384992-79fd-4be7-a810-c904ae969702",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c59e42a7-9622-46e8-a16e-328ddb38337d",
+      "components": {},
+      "name": "Icon_Pause",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/Pause.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 1.6644964599861156
     }
   },
   "spaces": {
