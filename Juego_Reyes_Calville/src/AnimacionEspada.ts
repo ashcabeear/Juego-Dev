@@ -1,6 +1,6 @@
 import * as ecs from '@8thwall/ecs'
 
-const ESPADA = 'CartaEspada'
+const VARITA = 'cartavarita'
 const ESCUDO = 'CartaEscudo'
 
 const ATAQUE = 'ataque'
@@ -10,7 +10,7 @@ ecs.registerComponent({
   name: 'Guerrero Espada',
 
   stateMachine: ({world, eid}) => {
-    let verEspada = false
+    let verVarita = false
     let verEscudo = false
 
     const ponerClip = (clip, enBucle) => {
@@ -24,9 +24,9 @@ ecs.registerComponent({
     }
 
     const actualizar = () => {
-      if (verEspada && verEscudo) {
+      if (verVarita && verEscudo) {
         ponerClip(MUERTE, false)
-      } else if (verEspada) {
+      } else if (verVarita) {
         ponerClip(ATAQUE, true)
       }
     }
@@ -34,12 +34,12 @@ ecs.registerComponent({
     ecs.defineState('default')
       .initial()
       .listen(world.events.globalId, ecs.events.REALITY_IMAGE_FOUND, (event: any) => {
-        if (event.data.name === ESPADA) verEspada = true
+        if (event.data.name === VARITA) verEspada = true
         if (event.data.name === ESCUDO) verEscudo = true
         actualizar()
       })
       .listen(world.events.globalId, ecs.events.REALITY_IMAGE_LOST, (event: any) => {
-        if (event.data.name === ESPADA) verEspada = false
+        if (event.data.name === VARITA) verEspada = false
         if (event.data.name === ESCUDO) verEscudo = false
         actualizar()
       })

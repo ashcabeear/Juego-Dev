@@ -91,45 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "601d5542-979f-4eaf-b0e1-f4bbb878145a": {
-      "id": "601d5542-979f-4eaf-b0e1-f4bbb878145a",
-      "position": [
-        0,
-        -0.24717018341926866,
-        1.0430441770900801e-16
-      ],
-      "rotation": [
-        4.597017211338502e-17,
-        0.6755902076156539,
-        0.7372773368101299,
-        -7.979727989493284e-17
-      ],
-      "scale": [
-        0.70000000000001,
-        0.700000000000006,
-        0.7000000000000043
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
-      "components": {
-        "da329c3d-e854-4f11-97d1-18c20c2c730e": {
-          "id": "da329c3d-e854-4f11-97d1-18c20c2c730e",
-          "name": "Guerrero Espada",
-          "parameters": {}
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Guerrero.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Guerrero_Espada.glb",
-      "order": 8.849371985430363
-    },
     "aa0cb93d-98e3-41f5-96a6-1065738bf843": {
       "id": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
       "position": [
@@ -152,9 +113,9 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Image Target_Espada",
+      "name": "Image Target_Varita",
       "imageTarget": {
-        "name": "CartaEspada"
+        "name": "cartavarita"
       },
       "order": 3.995969455342658
     },
@@ -249,7 +210,7 @@
       "components": {},
       "name": "Image Target_Enfrentamiento",
       "imageTarget": {
-        "name": "Merged"
+        "name": "CartaEspada"
       },
       "order": 29.27467708713012
     },
@@ -292,7 +253,7 @@
         "loop": true
       },
       "name": "Guerrero_Enfrentamiento1.glb",
-      "order": 24.89973320677107
+      "order": 32.884475183949455
     },
     "6e971c1a-4495-453b-b0bc-22ec62e83a2b": {
       "id": "6e971c1a-4495-453b-b0bc-22ec62e83a2b",
@@ -332,7 +293,7 @@
         "loop": true
       },
       "name": "Guerrero_Enfrentamiento2.glb",
-      "order": 26.419496759849196,
+      "order": 31.175698253912195,
       "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d"
     },
     "8d06c200-c083-4330-a3bf-e55109009bdc": {
@@ -385,13 +346,21 @@
       "material": null,
       "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
       "components": {
-        "f0e4c219-9a8f-4be3-bd74-41ed8f3d8747": {
-          "id": "f0e4c219-9a8f-4be3-bd74-41ed8f3d8747",
+        "d9e56b77-8c99-4000-bc43-865498d8b255": {
+          "id": "d9e56b77-8c99-4000-bc43-865498d8b255",
           "name": "Duelo Espadas",
           "parameters": {
+            "guerrero2": {
+              "type": "entity",
+              "id": "6e971c1a-4495-453b-b0bc-22ec62e83a2b"
+            },
             "opciones": {
               "type": "entity",
               "id": "50c70748-33ce-4476-a458-5791826f0058"
+            },
+            "botonLanzar": {
+              "type": "entity",
+              "id": "eb60f95b-6575-4455-83a3-afdcdbd22bd5"
             }
           }
         }
@@ -405,7 +374,7 @@
         "loop": true
       },
       "name": "dado.glb",
-      "order": 28.36878345739242
+      "order": 34.32027968357858
     },
     "f3ec1de1-4db9-4109-b65c-a9767ccd10c5": {
       "id": "f3ec1de1-4db9-4109-b65c-a9767ccd10c5",
@@ -647,7 +616,7 @@
     "50c70748-33ce-4476-a458-5791826f0058": {
       "id": "50c70748-33ce-4476-a458-5791826f0058",
       "position": [
-        -0.22383241174926138,
+        -0.39495814757806325,
         1.9172070640717125,
         0
       ],
@@ -678,6 +647,154 @@
       },
       "name": "Contenedor",
       "order": 18.281525139123698
+    },
+    "eb60f95b-6575-4455-83a3-afdcdbd22bd5": {
+      "id": "eb60f95b-6575-4455-83a3-afdcdbd22bd5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "abb64b48-72c3-4e5c-a6c3-41463307005f",
+      "components": {
+        "4737092d-0d0c-4f31-8c8f-5470a4378c80": {
+          "id": "4737092d-0d0c-4f31-8c8f-5470a4378c80",
+          "name": "Boton Lanzar",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#410674",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Lanzar",
+      "order": 31.062968835186442
+    },
+    "d5f58e1d-7a36-4ac4-bc91-41a63877e568": {
+      "id": "d5f58e1d-7a36-4ac4-bc91-41a63877e568",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "eb60f95b-6575-4455-83a3-afdcdbd22bd5",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Iniciar duelo de espadas",
+        "color": "#ffffff",
+        "fontSize": 10,
+        "textAlign": "center",
+        "verticalTextAlign": "center"
+      },
+      "order": 1.2091472264005605
+    },
+    "abb64b48-72c3-4e5c-a6c3-41463307005f": {
+      "id": "abb64b48-72c3-4e5c-a6c3-41463307005f",
+      "position": [
+        1.8351475586446315,
+        1.6007721045466623,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "width": 100,
+        "height": 36,
+        "type": "overlay",
+        "background": "#ffffff",
+        "backgroundOpacity": 0,
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "name": "iniduelo",
+      "order": 32.27574472662188
+    },
+    "c7c95f22-d124-4e45-967e-c3e8a669e1d1": {
+      "id": "c7c95f22-d124-4e45-967e-c3e8a669e1d1",
+      "position": [
+        0,
+        -0.06454107769517942,
+        1.4330998098261864e-17
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.74,
+        0.7399999999999999,
+        0.7399999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/GuerreroVarita1.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "GuerreroVarita1.glb",
+      "order": 34.56958676270027
     }
   },
   "spaces": {

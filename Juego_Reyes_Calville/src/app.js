@@ -6,6 +6,7 @@ const onxrloaded = () => {
       require('../image-targets/EnfretamientoEspada.json'),
       require('../image-targets/cartamadera.json'),
       require('../image-targets/Merged.json'),
+      require('../image-targets/cartavarita.json'),
     ],
   })
 }

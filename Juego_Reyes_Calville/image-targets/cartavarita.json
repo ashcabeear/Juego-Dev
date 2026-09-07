@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 58,
+    "left": 29,
+    "width": 710,
+    "height": 947,
+    "isRotated": false,
+    "originalWidth": 768,
+    "originalHeight": 1063
+  },
+  "imagePath": "image-targets/cartavarita_luminance.jpg",
+  "metadata": null,
+  "name": "cartavarita",
+  "resources": {
+    "originalImage": "cartavarita_original.jpg",
+    "croppedImage": "cartavarita_cropped.jpg",
+    "thumbnailImage": "cartavarita_thumbnail.jpg",
+    "luminanceImage": "cartavarita_luminance.jpg"
+  },
+  "created": 1788766392593,
+  "updated": 1788766403396
+}
