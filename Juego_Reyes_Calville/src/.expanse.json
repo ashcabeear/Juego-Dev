@@ -44,20 +44,20 @@
       "material": null,
       "name": "Camera",
       "position": [
-        -1.6082133486862455,
-        1.7807101074437237,
-        2.1634475930343227
+        -0.10036829134984115,
+        0.6419478160464812,
+        -1.7264992395211225
       ],
       "rotation": [
-        0.00023852523971356024,
-        0.9902763742697316,
-        -0.1391034228994052,
-        0.0016980596496621694
+        -0.000015083950990581974,
+        0.9999598382901616,
+        0.008796675840921971,
+        0.0017146642056722668
       ],
       "scale": [
-        1.0000000000000022,
+        1.0000000000000104,
         0.9999999999999999,
-        1.0000000000000013
+        1.0000000000000095
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -322,7 +322,7 @@
       "imageTarget": {
         "name": "cartamadera-1"
       },
-      "order": 21.240490411068798
+      "order": 39.35121729474959
     },
     "1ac1e9d9-90f3-4f63-a049-67d70a151ae1": {
       "id": "1ac1e9d9-90f3-4f63-a049-67d70a151ae1",
@@ -812,8 +812,8 @@
       "id": "61693240-0bc0-4b62-866c-6f4ce0fe9c63",
       "position": [
         0,
-        0.6122104962017213,
-        -3.983162413934025
+        0.0008289482605524645,
+        -0.04632181235274757
       ],
       "rotation": [
         0,
@@ -839,24 +839,24 @@
           "asset": "assets/Video_ReyesdeCalville.mp4"
         }
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "c59e42a7-9622-46e8-a16e-328ddb38337d",
       "components": {},
       "name": "Video",
-      "order": 33.345039602815596,
+      "order": 3.133621372822266,
       "videoControls": {}
     },
     "c59e42a7-9622-46e8-a16e-328ddb38337d": {
       "id": "c59e42a7-9622-46e8-a16e-328ddb38337d",
       "position": [
         0,
-        0.6113815479411688,
-        -3.9368406015812774
+        0.5667652002036054,
+        0.5958977137082933
       ],
       "rotation": [
+        0.4146932426562398,
         0,
         0,
-        0,
-        1
+        0.9099612708765429
       ],
       "scale": [
         1,
@@ -865,8 +865,27 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "parentId": "d58a8986-789e-49aa-ade7-ea96017823d1",
+      "components": {
+        "23a6f825-c3cc-4aff-9d46-f8ec002e7b0d": {
+          "id": "23a6f825-c3cc-4aff-9d46-f8ec002e7b0d",
+          "name": "Pausar Video",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "61693240-0bc0-4b62-866c-6f4ce0fe9c63"
+            },
+            "iconoPlay": {
+              "type": "entity",
+              "id": "37ecfba1-214d-47b4-9577-1aa4de7f684e"
+            },
+            "iconoPause": {
+              "type": "entity",
+              "id": "2f384992-79fd-4be7-a810-c904ae969702"
+            }
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 280,
@@ -880,7 +899,7 @@
         "alignItems": "center",
         "justifyContent": "center"
       },
-      "name": "Button",
+      "name": "Pausar Video",
       "order": 34.938784831708574
     },
     "37ecfba1-214d-47b4-9577-1aa4de7f684e": {
@@ -907,8 +926,8 @@
       "components": {},
       "name": "Icon_Play",
       "ui": {
-        "width": 16,
-        "height": 16,
+        "width": 30,
+        "height": 30,
         "image": {
           "type": "asset",
           "asset": "assets/Play.png"
@@ -942,8 +961,8 @@
       "components": {},
       "name": "Icon_Pause",
       "ui": {
-        "width": 16,
-        "height": 16,
+        "width": 30,
+        "height": 30,
         "image": {
           "type": "asset",
           "asset": "assets/Pause.png"
@@ -952,6 +971,34 @@
         "backgroundSize": "contain"
       },
       "order": 1.6644964599861156
+    },
+    "d58a8986-789e-49aa-ade7-ea96017823d1": {
+      "id": "d58a8986-789e-49aa-ade7-ea96017823d1",
+      "position": [
+        0,
+        -0.2101795923385148,
+        -3.9000415506838637
+      ],
+      "rotation": [
+        -0.41469324265623964,
+        0,
+        0,
+        0.9099612708765434
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target_Video",
+      "imageTarget": {
+        "name": "Video"
+      },
+      "order": 38.25545427169152
     }
   },
   "spaces": {

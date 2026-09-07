@@ -7,6 +7,7 @@ const onxrloaded = () => {
       require('../image-targets/cartamadera.json'),
       require('../image-targets/Merged.json'),
       require('../image-targets/cartavarita.json'),
+      require('../image-targets/Video.json'),
     ],
   })
 }
