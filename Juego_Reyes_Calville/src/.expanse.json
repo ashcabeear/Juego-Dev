@@ -1004,7 +1004,7 @@
       "id": "b5f60cb7-a377-40b4-886e-05bfc76f2a6d",
       "position": [
         0,
-        1.4886827160106098,
+        1.4244863010138333,
         -4.084338913042182
       ],
       "rotation": [
@@ -1014,9 +1014,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.5,
+        0.5,
+        0.5
       ],
       "geometry": null,
       "material": null,
@@ -1042,6 +1042,78 @@
       },
       "name": "Button",
       "order": 40.993006143360674
+    },
+    "25602b99-c5ba-4201-802c-bf63726ad34a": {
+      "id": "25602b99-c5ba-4201-802c-bf63726ad34a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "50c70748-33ce-4476-a458-5791826f0058",
+      "components": {},
+      "ui": {
+        "width": 80,
+        "height": 30,
+        "text": "El numero del oponente es:",
+        "color": "#ffffff",
+        "fontSize": 12,
+        "type": "3d",
+        "font": {
+          "type": "font",
+          "font": "Roboto"
+        },
+        "textAlign": "center",
+        "verticalTextAlign": "center"
+      },
+      "name": "Pregunta",
+      "order": 10.84834185594349
+    },
+    "8928e9b9-38e2-4ba9-b666-ff048506eccc": {
+      "id": "8928e9b9-38e2-4ba9-b666-ff048506eccc",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "abb64b48-72c3-4e5c-a6c3-41463307005f",
+      "components": {},
+      "ui": {
+        "width": 100,
+        "height": 30,
+        "text": "El oponente tiene una espada:",
+        "color": "#ffffff",
+        "fontSize": 12,
+        "type": "3d"
+      },
+      "name": "Pregunta1",
+      "order": 29.658106106757444
     }
   },
   "spaces": {
