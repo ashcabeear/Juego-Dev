@@ -529,7 +529,15 @@
       "geometry": null,
       "material": null,
       "parentId": "04ef5224-0c73-4749-902f-18fb6af0d45e",
-      "components": {},
+      "components": {
+        "5c89b3c5-62d8-42d5-8721-3ddfdadc549d": {
+          "id": "5c89b3c5-62d8-42d5-8721-3ddfdadc549d",
+          "name": "Boton Duelo",
+          "parameters": {
+            "opcion": "igual"
+          }
+        }
+      },
       "name": "Igual",
       "ui": {
         "width": 50,
@@ -607,7 +615,15 @@
       "geometry": null,
       "material": null,
       "parentId": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
-      "components": {},
+      "components": {
+        "7278131a-4f0e-4bd0-88b0-89a022370a1c": {
+          "id": "7278131a-4f0e-4bd0-88b0-89a022370a1c",
+          "name": "Boton Duelo",
+          "parameters": {
+            "opcion": "menor"
+          }
+        }
+      },
       "name": "Menor",
       "ui": {
         "width": 50,
