@@ -2,6 +2,7 @@ const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
       require('../image-targets/CartaEspada.json'),
+      require('../image-targets/CartaEscudo.json'),
     ],
   })
 }

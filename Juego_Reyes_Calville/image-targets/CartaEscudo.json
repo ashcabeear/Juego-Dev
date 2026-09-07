@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 39,
+    "left": 0,
+    "width": 647,
+    "height": 862,
+    "isRotated": false,
+    "originalWidth": 647,
+    "originalHeight": 942
+  },
+  "imagePath": "image-targets/CartaEscudo_luminance.jpg",
+  "metadata": null,
+  "name": "CartaEscudo",
+  "resources": {
+    "originalImage": "CartaEscudo_original.jpg",
+    "croppedImage": "CartaEscudo_cropped.jpg",
+    "thumbnailImage": "CartaEscudo_thumbnail.jpg",
+    "luminanceImage": "CartaEscudo_luminance.jpg"
+  },
+  "created": 1788743349577,
+  "updated": 1788743349577
+}

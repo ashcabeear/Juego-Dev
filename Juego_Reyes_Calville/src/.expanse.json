@@ -45,11 +45,11 @@
       "name": "Camera",
       "position": [
         0,
-        2,
-        3
+        1.4531210722273127,
+        1.4957877100032375
       ],
       "rotation": [
-        0.0004436887233141012,
+        0.00044368872331410124,
         0.9659425615285845,
         -0.25875089860082223,
         0.0016563336561801576
@@ -105,9 +105,9 @@
         1
       ],
       "scale": [
-        0.6,
-        0.6,
-        0.6
+        0.7000000000000001,
+        0.7000000000000001,
+        0.7000000000000001
       ],
       "geometry": null,
       "material": null,
@@ -132,10 +132,10 @@
         0
       ],
       "rotation": [
+        -0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         1,
@@ -146,11 +146,39 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Image Target",
+      "name": "Image Target_Espada",
       "imageTarget": {
         "name": "CartaEspada"
       },
       "order": 3.995969455342658
+    },
+    "d2c73224-a5f1-4cc9-ab96-74fcbe838630": {
+      "id": "d2c73224-a5f1-4cc9-ab96-74fcbe838630",
+      "position": [
+        1.685040046944049,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target_Escudo",
+      "imageTarget": {
+        "name": "CartaEscudo"
+      },
+      "order": 5.868758819336351
     }
   },
   "spaces": {
