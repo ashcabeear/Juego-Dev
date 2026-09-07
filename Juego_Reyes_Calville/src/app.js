@@ -3,7 +3,7 @@ const onxrloaded = () => {
     imageTargetData: [
       require('../image-targets/CartaEspada.json'),
       require('../image-targets/CartaEscudo.json'),
-      require('../image-targets/EnfrentamientoEspada.json'),
+      require('../image-targets/EnfretamientoEspada.json'),
       require('../image-targets/cartamadera.json'),
     ],
   })

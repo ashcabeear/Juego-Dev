@@ -46,18 +46,18 @@
       "position": [
         0.7187483082711343,
         1.1176424276747705,
-        1.4957877100032375
+        2.476058994886082
       ],
       "rotation": [
         0.00023852523971356018,
         0.9902763742697316,
         -0.1391034228994052,
-        0.0016980596496621691
+        0.0016980596496621694
       ],
       "scale": [
         1.0000000000000022,
         0.9999999999999999,
-        1.0000000000000016
+        1.0000000000000013
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -345,29 +345,29 @@
       "imageTarget": {
         "name": "cartamadera-1"
       },
-      "order": 11.083513954227437
+      "order": 21.240490411068798
     },
     "1ac1e9d9-90f3-4f63-a049-67d70a151ae1": {
       "id": "1ac1e9d9-90f3-4f63-a049-67d70a151ae1",
       "position": [
-        -1.6923374493899415,
-        1.478521351977633,
-        0
+        -0.004829924345923109,
+        3.2972915046254286e-16,
+        1.4849680791562982
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
-        0.02,
-        0.02,
-        0.02
+        0.01,
+        0.01,
+        0.01
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
       "components": {},
       "gltfModel": {
         "src": {
@@ -378,7 +378,255 @@
         "loop": true
       },
       "name": "dado.glb",
-      "order": 12.841521263336587
+      "order": 12.934570284810693
+    },
+    "f3ec1de1-4db9-4109-b65c-a9767ccd10c5": {
+      "id": "f3ec1de1-4db9-4109-b65c-a9767ccd10c5",
+      "position": [
+        -2.0761591377935824,
+        1.6941332983304063,
+        -0.01466068131661935
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.30000000000000016,
+        0.30000000000000016,
+        0.30000000000000016
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "50c70748-33ce-4476-a458-5791826f0058",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#410674",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Mayor",
+      "order": 17.099504914169675
+    },
+    "4bb885c2-4991-40af-ad6c-8fd6318bfd98": {
+      "id": "4bb885c2-4991-40af-ad6c-8fd6318bfd98",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f3ec1de1-4db9-4109-b65c-a9767ccd10c5",
+      "components": {},
+      "name": "mayor",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Mayor",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.148931683703641
+    },
+    "04ef5224-0c73-4749-902f-18fb6af0d45e": {
+      "id": "04ef5224-0c73-4749-902f-18fb6af0d45e",
+      "position": [
+        -1.696851963323059,
+        1.6996755130582377,
+        -0.01466068131661935
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.30000000000000016,
+        0.30000000000000016,
+        0.30000000000000016
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#410674",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": 6,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "flexWrap": "wrap"
+      },
+      "name": "Igual",
+      "order": 13.840771901643153,
+      "parentId": "50c70748-33ce-4476-a458-5791826f0058"
+    },
+    "0c0fb768-0aa4-42cb-97ea-af0607b20c0b": {
+      "id": "0c0fb768-0aa4-42cb-97ea-af0607b20c0b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "04ef5224-0c73-4749-902f-18fb6af0d45e",
+      "components": {},
+      "name": "Igual",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Igual",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1
+    },
+    "f0be4fd1-4654-40ab-870e-247cc3dd7bb1": {
+      "id": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
+      "position": [
+        -1.3402043648524695,
+        1.6979240300034277,
+        -0.01466068131661935
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.30000000000000016,
+        0.30000000000000016,
+        0.30000000000000016
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#410674",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Menor",
+      "order": 12.06186603082364,
+      "parentId": "50c70748-33ce-4476-a458-5791826f0058"
+    },
+    "2e358b9a-c92a-4e71-b71d-b043a313e54b": {
+      "id": "2e358b9a-c92a-4e71-b71d-b043a313e54b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
+      "components": {},
+      "name": "Menor",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Menor",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": -0.2115821784516383
+    },
+    "50c70748-33ce-4476-a458-5791826f0058": {
+      "id": "50c70748-33ce-4476-a458-5791826f0058",
+      "position": [
+        -0.22383241174926138,
+        1.9172070640717125,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "width": 307,
+        "height": 40,
+        "type": "overlay",
+        "position": "absolute",
+        "top": "",
+        "left": 50,
+        "bottom": "",
+        "right": ""
+      },
+      "name": "Contenedor",
+      "order": 18.281525139123698
     }
   },
   "spaces": {
