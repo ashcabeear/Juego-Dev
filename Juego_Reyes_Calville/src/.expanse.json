@@ -274,7 +274,13 @@
       "geometry": null,
       "material": null,
       "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
-      "components": {},
+      "components": {
+        "fee9fe63-f224-4eb1-98af-dfdf6e7b6fd2": {
+          "id": "fee9fe63-f224-4eb1-98af-dfdf6e7b6fd2",
+          "name": "Guerrero Enfrentamiento",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -306,7 +312,13 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "722e3ede-9d74-4429-b142-dd1730482044": {
+          "id": "722e3ede-9d74-4429-b142-dd1730482044",
+          "name": "Guerrero Enfrentamiento",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
