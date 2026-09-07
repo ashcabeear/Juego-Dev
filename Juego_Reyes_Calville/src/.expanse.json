@@ -784,13 +784,19 @@
       "geometry": null,
       "material": null,
       "parentId": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
-      "components": {},
+      "components": {
+        "abfe3f09-b441-4c99-9e72-5dd2d2b42e73": {
+          "id": "abfe3f09-b441-4c99-9e72-5dd2d2b42e73",
+          "name": "Animacion Varita",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
           "asset": "assets/GuerreroVarita1.glb"
         },
-        "animationClip": "",
+        "animationClip": "AtaqueVarita",
         "loop": true
       },
       "name": "GuerreroVarita1.glb",
