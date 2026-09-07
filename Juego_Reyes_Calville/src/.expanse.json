@@ -224,6 +224,100 @@
       },
       "name": "Guerrero_Escudo.glb ",
       "order": 7.237629679844087
+    },
+    "e3ac3e15-439f-43bd-b673-4c0bac1b688d": {
+      "id": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
+      "position": [
+        -1.6875075250440184,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target_Enfrentamiento",
+      "imageTarget": {
+        "name": "EnfretamientoEspada"
+      },
+      "order": 7.85603445971959
+    },
+    "f55c5b8c-e54b-48ed-821f-a0928edb245b": {
+      "id": "f55c5b8c-e54b-48ed-821f-a0928edb245b",
+      "position": [
+        0.012172457603554454,
+        0.7882396589733854,
+        -1.7502436366298678e-16
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Guerrero.glb"
+        },
+        "animationClip": "ataque",
+        "loop": true
+      },
+      "name": "Guerrero_Enfrentamiento1.glb",
+      "order": 9.513005116719635
+    },
+    "6e971c1a-4495-453b-b0bc-22ec62e83a2b": {
+      "id": "6e971c1a-4495-453b-b0bc-22ec62e83a2b",
+      "position": [
+        0.012172457603554454,
+        -0.6967403587061259,
+        1.5470743768422633e-16
+      ],
+      "rotation": [
+        -4.329780281177466e-17,
+        0.7071067811865476,
+        0.7071067811865475,
+        -4.329780281177467e-17
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Guerrero.glb"
+        },
+        "animationClip": "ataque",
+        "loop": true
+      },
+      "name": "Guerrero_Enfrentamiento2.glb",
+      "order": 11.00532235590307,
+      "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d"
     }
   },
   "spaces": {

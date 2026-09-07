@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 82,
+    "left": 0,
+    "width": 1346,
+    "height": 1794,
+    "isRotated": false,
+    "originalWidth": 1346,
+    "originalHeight": 1959
+  },
+  "imagePath": "image-targets/CartaEspadavolteada_luminance.jpg",
+  "metadata": null,
+  "name": "CartaEspadavolteada",
+  "resources": {
+    "originalImage": "CartaEspadavolteada_original.jpg",
+    "croppedImage": "CartaEspadavolteada_cropped.jpg",
+    "thumbnailImage": "CartaEspadavolteada_thumbnail.jpg",
+    "luminanceImage": "CartaEspadavolteada_luminance.jpg"
+  },
+  "created": 1788747949546,
+  "updated": 1788747949546
+}

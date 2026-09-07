@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 102,
+    "left": 0,
+    "width": 480,
+    "height": 640,
+    "isRotated": false,
+    "originalWidth": 480,
+    "originalHeight": 844
+  },
+  "imagePath": "image-targets/EnfretamientoEspada_luminance.png",
+  "metadata": null,
+  "name": "EnfretamientoEspada",
+  "resources": {
+    "originalImage": "EnfretamientoEspada_original.png",
+    "croppedImage": "EnfretamientoEspada_cropped.png",
+    "thumbnailImage": "EnfretamientoEspada_thumbnail.png",
+    "luminanceImage": "EnfretamientoEspada_luminance.png"
+  },
+  "created": 1788753909628,
+  "updated": 1788753909628
+}
