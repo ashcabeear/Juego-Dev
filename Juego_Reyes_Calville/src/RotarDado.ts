@@ -1,43 +1,67 @@
 import * as ecs from '@8thwall/ecs'
 
-const DUELO = 'EnfrentamientoEspada'   // nombre EXACTO del image target combinado
-const GIRO_MS = 1600
+const DUELO = 'EnfrentamientoEspada'
+const GIRO_MS = 1200
 
 ecs.registerComponent({
   name: 'Duelo Espadas',
-  stateMachine: ({world, eid}) => {
-    const girar = () => {
+  schema: {
+    opciones: ecs.eid,   // el Frame con los 3 botones
+  },
+  stateMachine: ({world, eid, schemaAttribute}) => {
+    const verOpciones = (mostrar) => {
+      const o = schemaAttribute.get(eid).opciones
+      if (!o) return
+      mostrar ? ecs.Hidden.remove(world, o) : ecs.Hidden.set(world, o, {})
+    }
+    const rodar = () => {
       ecs.Hidden.remove(world, eid)
+      const g90 = () => 90 * Math.floor(Math.random() * 4)
       ecs.RotateAnimation.set(world, eid, {
-        fromX: 0, fromY: 0, fromZ: 0, toX: 360, toY: 720, toZ: 360,
-        duration: 600, loop: true, reverse: false,
+        autoFrom: true,
+        toX: g90() + 720, toY: g90() + 720, toZ: g90() + 720,
+        duration: GIRO_MS, loop: false, reverse: false,
+        easeIn: false, easeOut: true,
       })
     }
-    const esconder = () => {
-      ecs.RotateAnimation.remove(world, eid)
-      ecs.Hidden.set(world, eid, {})
-    }
 
-    ecs.defineState('espera').initial()
-      .onEnter(esconder)
+    ecs.defineState('oculto').initial()
+      .onEnter(() => { ecs.Hidden.set(world, eid, {}); verOpciones(false) })
       .onEvent(ecs.events.REALITY_IMAGE_FOUND, 'girando', {
         target: world.events.globalId, where: (e: any) => e.data.name === DUELO,
       })
 
     ecs.defineState('girando')
-      .onEnter(girar)
-      .wait(GIRO_MS, 'resultado')
-      .onEvent(ecs.events.REALITY_IMAGE_LOST, 'espera', {
+      .onEnter(() => { verOpciones(false); rodar() })
+      .wait(GIRO_MS, 'elegir')
+      .onEvent(ecs.events.REALITY_IMAGE_LOST, 'oculto', {
         target: world.events.globalId, where: (e: any) => e.data.name === DUELO,
       })
 
-    ecs.defineState('resultado')
-      .onEnter(() => {
-        ecs.RotateAnimation.remove(world, eid)
-        const perdedor = Math.random() < 0.5 ? 'uno' : 'dos'
-        world.events.dispatch(world.events.globalId, 'dueloResultado', {perdedor})
+    ecs.defineState('elegir')
+      .onEnter(() => { verOpciones(true) })
+      .onEvent('dueloOpcion', 'girando', {
+        target: world.events.globalId, where: (e: any) => e.data.opcion === 'igual',
       })
-      .onEvent(ecs.events.REALITY_IMAGE_LOST, 'espera', {
+      .onEvent('dueloOpcion', 'muereUno', {
+        target: world.events.globalId, where: (e: any) => e.data.opcion === 'mayor',
+      })
+      .onEvent('dueloOpcion', 'muereDos', {
+        target: world.events.globalId, where: (e: any) => e.data.opcion === 'menor',
+      })
+      .onEvent(ecs.events.REALITY_IMAGE_LOST, 'oculto', {
+        target: world.events.globalId, where: (e: any) => e.data.name === DUELO,
+      })
+
+    ecs.defineState('muereUno')
+      .onEnter(() => { verOpciones(false); world.events.dispatch(world.events.globalId, 'muereGuerrero', {lado: 'uno'}) })
+      .onEvent(ecs.events.REALITY_IMAGE_LOST, 'oculto', {
+        target: world.events.globalId, where: (e: any) => e.data.name === DUELO,
+      })
+
+    ecs.defineState('muereDos')
+      .onEnter(() => { verOpciones(false); world.events.dispatch(world.events.globalId, 'muereGuerrero', {lado: 'dos'}) })
+      .onEvent(ecs.events.REALITY_IMAGE_LOST, 'oculto', {
         target: world.events.globalId, where: (e: any) => e.data.name === DUELO,
       })
   },

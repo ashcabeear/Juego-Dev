@@ -355,10 +355,10 @@
         1.4849680791562982
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         0.01,
@@ -368,7 +368,18 @@
       "geometry": null,
       "material": null,
       "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
-      "components": {},
+      "components": {
+        "f0e4c219-9a8f-4be3-bd74-41ed8f3d8747": {
+          "id": "f0e4c219-9a8f-4be3-bd74-41ed8f3d8747",
+          "name": "Duelo Espadas",
+          "parameters": {
+            "opciones": {
+              "type": "entity",
+              "id": "50c70748-33ce-4476-a458-5791826f0058"
+            }
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -401,7 +412,13 @@
       "geometry": null,
       "material": null,
       "parentId": "50c70748-33ce-4476-a458-5791826f0058",
-      "components": {},
+      "components": {
+        "002e7b79-2d2b-43dc-b24e-5676cfc49a7f": {
+          "id": "002e7b79-2d2b-43dc-b24e-5676cfc49a7f",
+          "name": "Boton Duelo",
+          "parameters": {}
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
@@ -470,7 +487,13 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "4001c6c7-630c-4aa9-84ba-fd0f44d3774f": {
+          "id": "4001c6c7-630c-4aa9-84ba-fd0f44d3774f",
+          "name": "Boton Duelo",
+          "parameters": {}
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
@@ -543,7 +566,13 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "1b5effb0-4238-4b40-8aa0-de65e3688b21": {
+          "id": "1b5effb0-4238-4b40-8aa0-de65e3688b21",
+          "name": "Boton Duelo",
+          "parameters": {}
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
