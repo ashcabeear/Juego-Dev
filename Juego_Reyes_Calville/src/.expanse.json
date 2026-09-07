@@ -44,20 +44,20 @@
       "material": null,
       "name": "Camera",
       "position": [
-        0,
-        1.4531210722273127,
+        0.7187483082711343,
+        1.1176424276747705,
         1.4957877100032375
       ],
       "rotation": [
-        0.00044368872331410124,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        0.00023852523971356018,
+        0.9902763742697316,
+        -0.1391034228994052,
+        0.0016980596496621691
       ],
       "scale": [
-        1,
-        1,
-        1
+        1.0000000000000022,
+        0.9999999999999999,
+        1.0000000000000016
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -112,17 +112,23 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "da329c3d-e854-4f11-97d1-18c20c2c730e": {
+          "id": "da329c3d-e854-4f11-97d1-18c20c2c730e",
+          "name": "Guerrero Espada",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
           "asset": "assets/Guerrero.glb"
         },
-        "animationClip": "",
+        "animationClip": "ataque",
         "loop": true
       },
-      "name": "Guerrero.glb",
-      "order": 2.430872877228066
+      "name": "Guerrero_Espada.glb",
+      "order": 8.849371985430363
     },
     "aa0cb93d-98e3-41f5-96a6-1065738bf843": {
       "id": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
@@ -179,6 +185,45 @@
         "name": "CartaEscudo"
       },
       "order": 5.868758819336351
+    },
+    "170fb371-2619-4516-a733-6e133c9d77fa": {
+      "id": "170fb371-2619-4516-a733-6e133c9d77fa",
+      "position": [
+        1.6889887055974535,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "9e67c45a-a7c2-49fc-a9f8-058e52e7850a": {
+          "id": "9e67c45a-a7c2-49fc-a9f8-058e52e7850a",
+          "name": "Guerrero Escudo",
+          "parameters": {}
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Guerrero.glb"
+        },
+        "animationClip": "defensa",
+        "loop": true
+      },
+      "name": "Guerrero_Escudo.glb ",
+      "order": 7.237629679844087
     }
   },
   "spaces": {
