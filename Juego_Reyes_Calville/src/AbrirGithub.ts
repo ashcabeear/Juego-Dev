@@ -1,7 +1,7 @@
 import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
-  name: 'InstagramButton',
+  name: 'Github Button',
 
   stateMachine: ({eid}) => {
     ecs.defineState('default')
