@@ -278,7 +278,9 @@
         "fee9fe63-f224-4eb1-98af-dfdf6e7b6fd2": {
           "id": "fee9fe63-f224-4eb1-98af-dfdf6e7b6fd2",
           "name": "Guerrero Enfrentamiento",
-          "parameters": {}
+          "parameters": {
+            "lado": "uno"
+          }
         }
       },
       "gltfModel": {
@@ -316,7 +318,9 @@
         "722e3ede-9d74-4429-b142-dd1730482044": {
           "id": "722e3ede-9d74-4429-b142-dd1730482044",
           "name": "Guerrero Enfrentamiento",
-          "parameters": {}
+          "parameters": {
+            "lado": "dos"
+          }
         }
       },
       "gltfModel": {
@@ -428,7 +432,9 @@
         "002e7b79-2d2b-43dc-b24e-5676cfc49a7f": {
           "id": "002e7b79-2d2b-43dc-b24e-5676cfc49a7f",
           "name": "Boton Duelo",
-          "parameters": {}
+          "parameters": {
+            "opcion": "mayor"
+          }
         }
       },
       "ui": {
@@ -503,7 +509,9 @@
         "4001c6c7-630c-4aa9-84ba-fd0f44d3774f": {
           "id": "4001c6c7-630c-4aa9-84ba-fd0f44d3774f",
           "name": "Boton Duelo",
-          "parameters": {}
+          "parameters": {
+            "opcion": "igual"
+          }
         }
       },
       "ui": {
@@ -582,7 +590,9 @@
         "1b5effb0-4238-4b40-8aa0-de65e3688b21": {
           "id": "1b5effb0-4238-4b40-8aa0-de65e3688b21",
           "name": "Boton Duelo",
-          "parameters": {}
+          "parameters": {
+            "opcion": "menor"
+          }
         }
       },
       "ui": {
