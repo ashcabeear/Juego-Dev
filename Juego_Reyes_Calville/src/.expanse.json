@@ -804,7 +804,10 @@
         0.7
       ],
       "geometry": null,
-      "material": null,
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
       "parentId": "aa0cb93d-98e3-41f5-96a6-1065738bf843",
       "components": {
         "abfe3f09-b441-4c99-9e72-5dd2d2b42e73": {
@@ -1136,13 +1139,49 @@
       },
       "name": "Pregunta1",
       "order": 26.713778419117784
+    },
+    "61d16c72-fb57-4375-9101-d89c244fed33": {
+      "id": "61d16c72-fb57-4375-9101-d89c244fed33",
+      "position": [
+        0.4723242612044565,
+        -3.399221327899561,
+        0.8224714803762796
+      ],
+      "rotation": [
+        -4.329780281177466e-17,
+        0.7071067811865476,
+        0.7071067811865475,
+        -4.329780281177467e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8d06c200-c083-4330-a3bf-e55109009bdc",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/CastilloMadera.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "CastilloMadera.glb",
+      "order": 41.1568753088038
     }
   },
   "spaces": {
     "88453035-dc0f-486d-868a-8ff7c2fda864": {
       "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "name": "Default Space",
-      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "sky": {
+        "type": "color"
+      }
     }
   },
   "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
