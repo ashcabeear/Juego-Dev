@@ -959,7 +959,7 @@
       "parentId": "50c70748-33ce-4476-a458-5791826f0058",
       "components": {},
       "ui": {
-        "width": 400,
+        "width": 350,
         "height": 30,
         "text": "El numero del oponente es:",
         "color": "#ffffff",
@@ -1159,7 +1159,7 @@
       "parentId": "50c70748-33ce-4476-a458-5791826f0058",
       "components": {},
       "ui": {
-        "width": 400,
+        "width": 350,
         "height": 40,
         "type": "3d",
         "ignoreRaycast": false,
