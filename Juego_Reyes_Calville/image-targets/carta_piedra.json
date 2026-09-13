@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 78,
+    "left": 0,
+    "width": 1300,
+    "height": 1733,
+    "isRotated": false,
+    "originalWidth": 1300,
+    "originalHeight": 1890
+  },
+  "imagePath": "image-targets/carta_piedra_luminance.png",
+  "metadata": null,
+  "name": "carta_piedra",
+  "resources": {
+    "originalImage": "carta_piedra_original.png",
+    "croppedImage": "carta_piedra_cropped.png",
+    "thumbnailImage": "carta_piedra_thumbnail.png",
+    "luminanceImage": "carta_piedra_luminance.png"
+  },
+  "created": 1789256862080,
+  "updated": 1789256862080
+}

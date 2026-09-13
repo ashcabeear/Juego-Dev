@@ -9,6 +9,9 @@ const onxrloaded = () => {
       require('../image-targets/cartavarita.json'),
       require('../image-targets/Video.json'),
       require('../image-targets/cartamadera-1.json'),
+      require('../image-targets/carta_piedra.json'),
+      require('../image-targets/carta_piedra_preciosa.json'),
+
     ],
   })
 }

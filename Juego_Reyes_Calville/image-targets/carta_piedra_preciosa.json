@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 77,
+    "left": 0,
+    "width": 1301,
+    "height": 1734,
+    "isRotated": false,
+    "originalWidth": 1301,
+    "originalHeight": 1890
+  },
+  "imagePath": "image-targets/carta_piedra_preciosa_luminance.png",
+  "metadata": null,
+  "name": "carta_piedra_preciosa",
+  "resources": {
+    "originalImage": "carta_piedra_preciosa_original.png",
+    "croppedImage": "carta_piedra_preciosa_cropped.png",
+    "thumbnailImage": "carta_piedra_preciosa_thumbnail.png",
+    "luminanceImage": "carta_piedra_preciosa_luminance.png"
+  },
+  "created": 1789262012948,
+  "updated": 1789262012948
+}
