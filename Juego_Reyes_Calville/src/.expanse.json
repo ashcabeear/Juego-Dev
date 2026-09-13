@@ -482,8 +482,9 @@
         }
       },
       "ui": {
+        "text": "Menor",
         "type": "3d",
-        "width": 150,
+        "width": 100,
         "height": 36,
         "background": "#410674",
         "borderRadius": 18,
@@ -492,7 +493,8 @@
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "verticalTextAlign": "center"
       },
       "name": "Menor",
       "order": 11.923979535915612,
@@ -529,7 +531,8 @@
         "left": "",
         "bottom": "",
         "right": "",
-        "stackingOrder": 0
+        "stackingOrder": 0,
+        "ignoreRaycast": true
       },
       "name": "Contenedor",
       "order": 18.281525139123698
@@ -935,9 +938,9 @@
     "25602b99-c5ba-4201-802c-bf63726ad34a": {
       "id": "25602b99-c5ba-4201-802c-bf63726ad34a",
       "position": [
-        4.467347882841563,
-        -5.65974676667809,
-        0.04886893772206413
+        0,
+        0,
+        0
       ],
       "rotation": [
         0,
@@ -946,13 +949,13 @@
         1
       ],
       "scale": [
-        3.3333333333333317,
-        3.3333333333333317,
-        3.3333333333333317
+        1,
+        1,
+        1
       ],
       "geometry": null,
       "material": null,
-      "parentId": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
+      "parentId": "50c70748-33ce-4476-a458-5791826f0058",
       "components": {},
       "ui": {
         "width": 90,
@@ -970,7 +973,7 @@
         "ignoreRaycast": true
       },
       "name": "Pregunta",
-      "order": 10.84834185594349
+      "order": 9.88630422498949
     },
     "8928e9b9-38e2-4ba9-b666-ff048506eccc": {
       "id": "8928e9b9-38e2-4ba9-b666-ff048506eccc",
@@ -1131,41 +1134,6 @@
       },
       "name": "CastilloPiedrapreciosa.glb (1)",
       "order": 44.51761928505897
-    },
-    "d2a4da5d-88bf-4731-91d0-c453e196fb65": {
-      "id": "d2a4da5d-88bf-4731-91d0-c453e196fb65",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
-      "components": {},
-      "ui": {
-        "width": 50,
-        "height": 30,
-        "text": "Menor",
-        "color": "#ffffff",
-        "fontSize": 16,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center"
-      },
-      "name": "Text",
-      "order": 12.524774530665523
     }
   },
   "spaces": {
