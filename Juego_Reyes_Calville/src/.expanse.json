@@ -353,7 +353,7 @@
       "position": [
         -2.0761591377935824,
         1.6941332983304063,
-        -0.01466068131661935
+        -0.01466068131661924
       ],
       "rotation": [
         0,
@@ -368,7 +368,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "50c70748-33ce-4476-a458-5791826f0058",
+      "parentId": "a8a6894b-3c63-45d9-b455-c0894decb02b",
       "components": {
         "002e7b79-2d2b-43dc-b24e-5676cfc49a7f": {
           "id": "002e7b79-2d2b-43dc-b24e-5676cfc49a7f",
@@ -399,14 +399,14 @@
         "verticalTextAlign": "center"
       },
       "name": "Mayor",
-      "order": 17.099504914169675
+      "order": 14.837788721428964
     },
     "04ef5224-0c73-4749-902f-18fb6af0d45e": {
       "id": "04ef5224-0c73-4749-902f-18fb6af0d45e",
       "position": [
         -1.696851963323059,
-        1.6996755130582377,
-        -0.01466068131661935
+        1.699675513058238,
+        -0.01466068131661924
       ],
       "rotation": [
         0,
@@ -449,8 +449,8 @@
         "verticalTextAlign": "center"
       },
       "name": "Igual",
-      "order": 13.840771901643153,
-      "parentId": "50c70748-33ce-4476-a458-5791826f0058"
+      "order": 13.132614564151787,
+      "parentId": "a8a6894b-3c63-45d9-b455-c0894decb02b"
     },
     "f0be4fd1-4654-40ab-870e-247cc3dd7bb1": {
       "id": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
@@ -498,7 +498,7 @@
       },
       "name": "Menor",
       "order": 11.923979535915612,
-      "parentId": "50c70748-33ce-4476-a458-5791826f0058"
+      "parentId": "a8a6894b-3c63-45d9-b455-c0894decb02b"
     },
     "50c70748-33ce-4476-a458-5791826f0058": {
       "id": "50c70748-33ce-4476-a458-5791826f0058",
@@ -523,6 +523,7 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "ui": {
+        "flexDirection": "column",
         "width": 400,
         "height": 60,
         "type": "overlay",
@@ -958,7 +959,7 @@
       "parentId": "50c70748-33ce-4476-a458-5791826f0058",
       "components": {},
       "ui": {
-        "width": 90,
+        "width": 300,
         "height": 30,
         "text": "El numero del oponente es:",
         "color": "#ffffff",
@@ -1134,6 +1135,36 @@
       },
       "name": "CastilloPiedrapreciosa.glb (1)",
       "order": 44.51761928505897
+    },
+    "a8a6894b-3c63-45d9-b455-c0894decb02b": {
+      "id": "a8a6894b-3c63-45d9-b455-c0894decb02b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "50c70748-33ce-4476-a458-5791826f0058",
+      "components": {},
+      "ui": {
+        "width": 100,
+        "height": 10,
+        "type": "3d"
+      },
+      "name": "Boton",
+      "order": 18.68190977550326
     }
   },
   "spaces": {
