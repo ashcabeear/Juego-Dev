@@ -971,7 +971,8 @@
         "verticalTextAlign": "center"
       },
       "name": "Pregunta",
-      "order": 10.84834185594349
+      "order": 10.84834185594349,
+      "disabled": true
     },
     "8928e9b9-38e2-4ba9-b666-ff048506eccc": {
       "id": "8928e9b9-38e2-4ba9-b666-ff048506eccc",
