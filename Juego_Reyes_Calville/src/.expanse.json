@@ -955,7 +955,7 @@
       "parentId": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
       "components": {},
       "ui": {
-        "width": 80,
+        "width": 90,
         "height": 30,
         "text": "El numero del oponente es:",
         "color": "#ffffff",
@@ -965,7 +965,7 @@
           "type": "font",
           "font": "Roboto"
         },
-        "textAlign": "right",
+        "textAlign": "center",
         "verticalTextAlign": "center",
         "ignoreRaycast": true
       },
@@ -1155,13 +1155,14 @@
       "parentId": "f0be4fd1-4654-40ab-870e-247cc3dd7bb1",
       "components": {},
       "ui": {
-        "width": 70,
-        "height": 10,
+        "width": 50,
+        "height": 30,
         "text": "Menor",
         "color": "#ffffff",
-        "fontSize": 12,
+        "fontSize": 16,
         "type": "3d",
-        "textAlign": "center"
+        "textAlign": "left",
+        "verticalTextAlign": "center"
       },
       "name": "Text",
       "order": 12.524774530665523
