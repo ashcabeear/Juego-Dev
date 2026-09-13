@@ -959,7 +959,7 @@
       "parentId": "50c70748-33ce-4476-a458-5791826f0058",
       "components": {},
       "ui": {
-        "width": 300,
+        "width": 400,
         "height": 30,
         "text": "El numero del oponente es:",
         "color": "#ffffff",
@@ -1159,11 +1159,16 @@
       "parentId": "50c70748-33ce-4476-a458-5791826f0058",
       "components": {},
       "ui": {
-        "width": 100,
-        "height": 10,
-        "type": "3d"
+        "width": 400,
+        "height": 40,
+        "type": "3d",
+        "ignoreRaycast": false,
+        "maxWidth": "",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 10
       },
-      "name": "Boton",
+      "name": "Botones",
       "order": 18.68190977550326
     }
   },
