@@ -11,7 +11,7 @@ const onxrloaded = () => {
       require('../image-targets/cartamadera-1.json'),
       require('../image-targets/carta_piedra.json'),
       require('../image-targets/carta_piedra_preciosa.json'),
-
+      require('../image-targets/tableroazul-1.json'),
     ],
   })
 }

@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 221,
+    "left": 0,
+    "width": 722,
+    "height": 962,
+    "isRotated": false,
+    "originalWidth": 722,
+    "originalHeight": 1405
+  },
+  "imagePath": "image-targets/tableroazul_luminance.jpg",
+  "metadata": null,
+  "name": "tableroazul",
+  "resources": {
+    "originalImage": "tableroazul_original.jpg",
+    "croppedImage": "tableroazul_cropped.jpg",
+    "thumbnailImage": "tableroazul_thumbnail.jpg",
+    "luminanceImage": "tableroazul_luminance.jpg"
+  },
+  "created": 1789263707828,
+  "updated": 1789263707828
+}

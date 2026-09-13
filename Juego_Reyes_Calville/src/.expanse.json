@@ -1237,24 +1237,24 @@
     "ddcf3b9b-80af-46e9-9f06-4f489b6a068f": {
       "id": "ddcf3b9b-80af-46e9-9f06-4f489b6a068f",
       "position": [
-        3.7865284648154742,
-        -0.10369783821017929,
-        4.55818747997222
+        2.0042845906824622,
+        6.989344321161909,
+        -0.10369783821018085
       ],
       "rotation": [
-        0,
-        0,
-        0,
-        0.9999999999999998
+        0.5,
+        0.5,
+        0.4999999999999998,
+        0.5000000000000001
       ],
       "scale": [
-        159.6999999999999,
-        159.6999999999999,
-        159.6999999999999
+        159.69999999999987,
+        159.69999999999987,
+        159.69999999999987
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "45865de0-5eb9-43f5-8aed-716350708ed5",
       "components": {},
       "gltfModel": {
         "src": {
@@ -1265,7 +1265,7 @@
         "loop": true
       },
       "name": "CastilloPiedrapreciosa.glb",
-      "order": 43.14465044764702
+      "order": 45.638892996401886
     },
     "1ba0b72e-db97-458c-a812-51aac6a3a7ba": {
       "id": "1ba0b72e-db97-458c-a812-51aac6a3a7ba",
@@ -1289,11 +1289,138 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Image Target",
+      "name": "Image Target_PiedraPreciosa",
       "imageTarget": {
         "name": "carta_piedra_preciosa"
       },
       "order": 44.15559507800327
+    },
+    "45865de0-5eb9-43f5-8aed-716350708ed5": {
+      "id": "45865de0-5eb9-43f5-8aed-716350708ed5",
+      "position": [
+        -3.2028158563464344,
+        0,
+        2.55390288928976
+      ],
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.4999999999999999,
+        0.5000000000000001
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target_Castillo",
+      "imageTarget": {
+        "name": "tableroazul-1"
+      },
+      "order": 45.85831550914217
+    },
+    "edc0ed82-8ed7-4363-906b-9bd6993a4122": {
+      "id": "edc0ed82-8ed7-4363-906b-9bd6993a4122",
+      "position": [
+        1.74604049776889,
+        0.11585254113442423,
+        1.0041063994989274
+      ],
+      "rotation": [
+        0.49999999999999994,
+        -0.5000000000000001,
+        -0.5,
+        0.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "45865de0-5eb9-43f5-8aed-716350708ed5",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/CastilloMadera.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "CastilloMadera.glb (1)",
+      "order": 47.31328180572977
+    },
+    "e50108dd-7ec2-4d23-8a79-75047b81c387": {
+      "id": "e50108dd-7ec2-4d23-8a79-75047b81c387",
+      "position": [
+        -4.660231539309438,
+        -1.828571721147699,
+        1.619611290748031
+      ],
+      "rotation": [
+        0.7071067811865474,
+        0,
+        0,
+        0.7071067811865477
+      ],
+      "scale": [
+        201.20000000000002,
+        201.19999999999996,
+        201.19999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "23cc4fa1-afc6-4621-97ef-6ce0139238d7",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/CastilloPiedra.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "CastilloPiedra.glb (1)",
+      "order": 44.359196273209164
+    },
+    "547cde8f-bb41-42d9-a2f8-feda20c6d473": {
+      "id": "547cde8f-bb41-42d9-a2f8-feda20c6d473",
+      "position": [
+        1.76893440173298,
+        0.07529930144776209,
+        3.573617182399244
+      ],
+      "rotation": [
+        0.5000000000000001,
+        0.5000000000000001,
+        0.4999999999999999,
+        0.5
+      ],
+      "scale": [
+        159.69999999999987,
+        159.69999999999987,
+        159.69999999999987
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "45865de0-5eb9-43f5-8aed-716350708ed5",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/CastilloPiedrapreciosa.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "CastilloPiedrapreciosa.glb (1)",
+      "order": 44.51761928505897
     }
   },
   "spaces": {
