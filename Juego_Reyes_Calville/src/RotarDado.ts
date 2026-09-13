@@ -63,9 +63,13 @@ ecs.registerComponent({
         target: world.events.globalId, where: (e: any) => e.data.name === DUELO,
       })
 
-    // el dado cayo: salen los 3 botones
+    
+       // el dado cayo: salen los 3 botones
     ecs.defineState('elegir')
       .onEnter(() => { mostrar(s().opciones, true) })
+      .listen(world.events.globalId, 'dueloOpcion', (e: any) => {
+        console.log('DADO recibio opcion:', e.data.opcion)
+      })
       .onEvent('dueloOpcion', 'girando', {
         target: world.events.globalId, where: (e: any) => e.data.opcion === 'igual',
       })

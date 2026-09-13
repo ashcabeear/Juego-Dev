@@ -318,8 +318,8 @@
       "material": null,
       "parentId": "e3ac3e15-439f-43bd-b673-4c0bac1b688d",
       "components": {
-        "d9e56b77-8c99-4000-bc43-865498d8b255": {
-          "id": "d9e56b77-8c99-4000-bc43-865498d8b255",
+        "4675ee6c-75a5-4e2d-a7b4-be74c265a7de": {
+          "id": "4675ee6c-75a5-4e2d-a7b4-be74c265a7de",
           "name": "Duelo Espadas",
           "parameters": {
             "guerrero2": {
@@ -332,7 +332,7 @@
             },
             "botonLanzar": {
               "type": "entity",
-              "id": "eb60f95b-6575-4455-83a3-afdcdbd22bd5"
+              "id": "f55c5b8c-e54b-48ed-821f-a0928edb245b"
             }
           }
         }
